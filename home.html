@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CMuli:400,700" rel="stylesheet">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="#">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="home.html">
+                <div class="logo-image">
+                      <img src="assets/images/logo.png" class="img-fluid">
+                </div>
+          </a>
+            <a class="navbar-brand text-success logo h1 align-self-center" href="home.html">
+                Jigsaw Puzzle
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    	
+ <!-- Side navigation -->
+ <div class="sidenav" style="margin: 0;">
+    <a><img src="assets/images/profile.jpg"  style="height:150px; border-radius: 50%; border: 10px solid #FDEED7;" alt="Profile Pic"></a>
+    <a  style="position: relative; left: 40px;color: #fff; font-size:20px;">User 1</a>
+    <div class="butnav">
+        <a href="blog_page.html"><button class="custom-btn btn-11">Blog Editor</button></a>
+        <a href="wiki_blog.html"><button class="custom-btn btn-11" style="margin-top: 50px;">Wiki Editor</button></a>
+         </div>
+</div>
+
+<!-- close Header -->
+       <!-- Modal -->
+       <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+	<!-- SECTION -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div id="hot-post" class="row hot-post">
+				<div class="col-md-6 hot-post-left">
+					<!-- post -->
+					<div class="post post-thumb">
+						<a class="post-img" href="blog1.html"><img src="assets/images/dhoni.jpg" alt=""></a>
+						<div class="post-body">
+							<div class="post-category">
+								<a href="">Blog Post</a>
+							</div>
+							<h3 class="post-title title-lg"><a>MAHENDRA SINGH DHONI : THE CAPTAIN COOL</a></h3>
+							<ul class="post-meta">
+							<li><a class="author">By Aniket Mallik</a></li>
+								
+							</ul>
+						</div>
+					</div>
+					<!-- /post -->
+				</div>
+                
+                <div class="col-md-6 hot-post-right">
+					<!-- post -->
+					<div class="post post-thumb">
+						<a class="post-img" href="blog4.html"><img src="assets/images/wizard.jpg" alt=""></a>
+						<div class="post-body">
+							<div class="post-category">
+								<a href="">Wiki Post</a>
+							</div>
+							<h3 class="post-title title-lg"><a>Elravius Rincewind</a></h3>
+							<ul class="post-meta">
+							<li><a class="author">By Dibyarup Nath </a></li>
+								
+							</ul>
+						</div>
+					</div>
+					<!-- /post -->
+				</div>
+
+
+
+				<div class="col-md-4 hot-post-right">
+					<!-- post -->
+					<div class="post post-thumb">
+						<a class="post-img" href="blog2.html"><img src="assets/images/post-vimpire.jpg" alt=""></a>
+						<div class="post-body">
+							<div class="post-category">
+								<a href="">Wiki Post</a>
+							</div>
+							<h3 class="post-title"><a href="blog-post.html">Natása Iezabel Bloodgood</a></h3>
+							<ul class="post-meta">
+								<li><a class="author">By Dibyarup Nath</a></li>
+								
+							</ul>
+						</div>
+					</div>
+					<!-- /post -->
+                </div>
+                <div class="col-md-4 hot-post-right">
+					<!-- post -->
+					<div class="post post-thumb">
+						<a class="post-img" href="blog3.html"><img src="assets/images/formula.jpg" alt=""></a>
+						<div class="post-body">
+							<div class="post-category">
+								<a href="">Blog Post</a>
+								
+							</div>
+							<h3 class="post-title"><a href="blog-post.html">Formula 1</a></h3>
+							<ul class="post-meta">
+								<li><a class="author">By Ayush Dey</a></li>
+								
+							</ul>
+						</div>
+					</div>
+					<!-- /post -->
+                    </div>
+                    <div class="col-md-4 hot-post-right">
+                        <!-- post -->
+                        <div class="post post-thumb">
+                            <a class="post-img" href="blog5.html"><img src="assets/images/fb.jpg" alt=""></a>
+                            <div class="post-body">
+                                <div class="post-category">
+                                    <a href="">Blog Post</a>
+                                    
+                                </div>
+                                <h3 class="post-title"><a href="blog-post.html">FOOTBALL AS A GAME</a></h3>
+                                <ul class="post-meta">
+                                    <li><a class="author">By Satyasadhan Banerjee</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /post -->
+                        </div>
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+						
+    
+
+  
+</body>
+</html>
